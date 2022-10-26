@@ -32,11 +32,13 @@ body {
     padding: .4rem 1rem;
     text-align: center;
     color: rgb(55, 55, 55);
+    font-size: .85rem;
+    cursor: pointer;
 }
 
 .pagination button:hover {
     background-color: rgba(0, 0, 0, 0.45);
     color: rgb(219, 219, 219);
     font-weight: 600;
-    transition-duration: 200ms;
+    transition-duration: 300ms;
 }
