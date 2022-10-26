@@ -15,3 +15,28 @@ body {
     width: 100vw;
     background-color: #FCFCFC;
 }
+
+.pagination {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 1rem;
+}
+
+.pagination button {
+    border: none;
+    border-radius: 2rem;
+    background-color: rgba(53, 53, 53, 0.35);
+    padding: .4rem 1rem;
+    text-align: center;
+    color: rgb(55, 55, 55);
+}
+
+.pagination button:hover {
+    background-color: rgba(0, 0, 0, 0.45);
+    color: rgb(219, 219, 219);
+    font-weight: 600;
+    transition-duration: 200ms;
+}
